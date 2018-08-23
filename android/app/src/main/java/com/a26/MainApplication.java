@@ -3,6 +3,7 @@ package com.a26;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.facebook.reactnative.androidsdk.FBSDKPackage;
 import io.realm.react.RealmReactPackage;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new FBSDKPackage(),
             new RealmReactPackage(),
             new RNGoogleSigninPackage(),
             new ReactNativeConfigPackage(),
