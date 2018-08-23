@@ -10,6 +10,7 @@
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-config": "^0.11.5",
+    "react-native-google-signin": "^1.0.0-rc3",
     "react-native-vector-icons": "^5.0.0"
   },
   "devDependencies": {
